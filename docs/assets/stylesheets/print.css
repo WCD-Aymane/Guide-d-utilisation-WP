@@ -1,0 +1,52 @@
+@media print {
+  /* Hides non-essential UI elements */
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .md-top,
+  .md-content__icon,
+  .pdf-button-wrapper {
+      display: none !important;
+  }
+
+  /* Reset margins/paddings for the main container */
+  .md-container {
+      padding-top: 0 !important;
+  }
+
+  .md-main__inner {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+      max-width: 100% !important;
+  }
+
+  /* Force content to take full width */
+  .md-content {
+      margin-left: 0 !important;
+      max-width: 100% !important;
+  }
+
+  /* Typography tweaks for print */
+  body {
+      font-size: 11pt;
+      background-color: white !important;
+      color: black !important;
+  }
+
+  a {
+      text-decoration: none !important;
+      color: black !important;
+  }
+
+  /* Ensure images don't break across pages awkwardly */
+  img {
+      max-width: 100% !important;
+      page-break-inside: avoid;
+  }
+
+  /* Page break handling */
+  h1, h2, h3 {
+      page-break-after: avoid;
+      break-after: avoid;
+  }
+}
