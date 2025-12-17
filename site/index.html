@@ -1,0 +1,874 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A new project generated from the default template project.">
+      
+      
+        <meta name="author" content="<your name here>">
+      
+      
+      
+      
+        <link rel="next" href="modification%20bricks/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.11">
+    
+    
+      
+        <title>Guide de prise en main – Modifier son site avec Bricks Builder - Documentation</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="assets/stylesheets/modern/main.bd6182e7.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  
+  <style>:root{}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-de-prise-en-main-modifier-son-site-avec-bricks-builder" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="" title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guide de prise en main – Modifier son site avec Bricks Builder
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="" title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide de prise en main – Modifier son site avec Bricks Builder
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide de prise en main – Modifier son site avec Bricks Builder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-acceder-a-lediteur-bricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Accéder à l’éditeur Bricks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-comprendre-linterface-bricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Comprendre l’interface Bricks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-comment-modifier-un-texte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Comment modifier un texte
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-modifier-un-bouton" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Modifier un bouton
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-modifier-une-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Modifier une image
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-modifier-un-lien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Modifier un lien
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-ajouter-ou-supprimer-un-element-avec-precaution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Ajouter ou supprimer un élément (avec précaution)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Ajouter ou supprimer un élément (avec précaution)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-un-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajouter un élément
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supprimer-un-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supprimer un élément
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-sauvegarder-les-modifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Sauvegarder les modifications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-bonnes-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Bonnes pratiques
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-besoin-daide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Besoin d’aide ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="modification%20bricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guide de prise en main – Modifier son site avec Bricks Builder
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-acceder-a-lediteur-bricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Accéder à l’éditeur Bricks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-comprendre-linterface-bricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Comprendre l’interface Bricks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-comment-modifier-un-texte" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Comment modifier un texte
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-modifier-un-bouton" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Modifier un bouton
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-modifier-une-image" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Modifier une image
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-modifier-un-lien" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Modifier un lien
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-ajouter-ou-supprimer-un-element-avec-precaution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Ajouter ou supprimer un élément (avec précaution)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Ajouter ou supprimer un élément (avec précaution)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ajouter-un-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ajouter un élément
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supprimer-un-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supprimer un élément
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-sauvegarder-les-modifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Sauvegarder les modifications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-bonnes-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Bonnes pratiques
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-besoin-daide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Besoin d’aide ?
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="guide-de-prise-en-main-modifier-son-site-avec-bricks-builder">Guide de prise en main – Modifier son site avec Bricks Builder<a class="headerlink" href="#guide-de-prise-en-main-modifier-son-site-avec-bricks-builder" title="Permanent link">&para;</a></h1>
+<p>Ce document a pour objectif de vous expliquer <strong>les points essentiels à connaître pour modifier votre site WordPress construit avec Bricks</strong>.<br />
+Il est pensé pour une utilisation simple, sans connaissances techniques avancées.</p>
+<hr />
+<h2 id="1-acceder-a-lediteur-bricks">1. Accéder à l’éditeur Bricks<a class="headerlink" href="#1-acceder-a-lediteur-bricks" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Accès à l’éditeur Bricks depuis WordPress</strong><br />
+<em>Capture suggérée : Menu WordPress &gt; Pages &gt; Bouton « Modifier avec Bricks »</em></p>
+<ol>
+<li>Connectez-vous à l’administration WordPress  </li>
+<li>Allez dans <strong>Pages</strong> (ou <strong>Articles</strong> selon le contenu)  </li>
+<li>Passez la souris sur la page à modifier  </li>
+<li>Cliquez sur <strong>Modifier avec Bricks</strong></li>
+</ol>
+<p>Vous arrivez alors dans l’éditeur visuel.</p>
+<hr />
+<h2 id="2-comprendre-linterface-bricks">2. Comprendre l’interface Bricks<a class="headerlink" href="#2-comprendre-linterface-bricks" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Vue globale de l’interface Bricks</strong><br />
+<em>Capture suggérée : Éditeur Bricks avec annotations (zone centrale, panneau gauche, structure)</em></p>
+<p>L’éditeur Bricks est composé de :
+- <strong>La zone centrale</strong> : aperçu du site en temps réel<br />
+- <strong>Le panneau de gauche</strong> : réglages de l’élément sélectionné<br />
+- <strong>La structure (Layers)</strong> : hiérarchie des éléments de la page  </p>
+<p>👉 <strong>Astuce</strong> : cliquez directement sur un élément du site pour le sélectionner.</p>
+<hr />
+<h2 id="3-comment-modifier-un-texte">3. Comment modifier un texte<a class="headerlink" href="#3-comment-modifier-un-texte" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Sélection d’un texte dans Bricks</strong><br />
+<em>Capture suggérée : Texte cliqué + panneau Contenu ouvert</em></p>
+<ol>
+<li>Cliquez sur le texte à modifier dans la page  </li>
+<li>Dans le panneau de gauche, restez sur l’onglet <strong>Contenu</strong>  </li>
+<li>Modifiez le texte directement dans le champ prévu  </li>
+<li>Le changement est visible immédiatement  </li>
+</ol>
+<p>💡 Vous pouvez copier/coller du texte sans problème.</p>
+<hr />
+<h2 id="4-modifier-un-bouton">4. Modifier un bouton<a class="headerlink" href="#4-modifier-un-bouton" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Paramètres d’un bouton</strong><br />
+<em>Capture suggérée : Onglet Contenu d’un bouton (texte + lien)</em></p>
+<ol>
+<li>Cliquez sur le bouton  </li>
+<li>Onglet <strong>Contenu</strong> :</li>
+<li>Modifier le texte du bouton  </li>
+<li>Modifier le lien (URL)  </li>
+<li>Onglet <strong>Style</strong> (si autorisé) :</li>
+<li>Couleur  </li>
+<li>Taille du texte  </li>
+<li>Bordures  </li>
+</ol>
+<p>⚠️ Évitez de modifier le style si vous n’êtes pas sûr, pour garder une cohérence graphique.</p>
+<hr />
+<h2 id="5-modifier-une-image">5. Modifier une image<a class="headerlink" href="#5-modifier-une-image" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Changement d’image</strong><br />
+<em>Capture suggérée : Sélecteur de médias WordPress ouvert depuis Bricks</em></p>
+<ol>
+<li>Cliquez sur l’image  </li>
+<li>Dans <strong>Contenu &gt; Image</strong>  </li>
+<li>Cliquez sur <strong>Sélectionner une image</strong>  </li>
+<li>Choisissez une image depuis la médiathèque ou importez-en une nouvelle  </li>
+</ol>
+<p>📌 <strong>Conseil</strong> : privilégiez des images légères (moins de 300–400 Ko).</p>
+<hr />
+<h2 id="6-modifier-un-lien">6. Modifier un lien<a class="headerlink" href="#6-modifier-un-lien" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Champ lien dans Bricks</strong><br />
+<em>Capture suggérée : Champ URL dans les paramètres de l’élément</em></p>
+<p>Pour modifier un lien sur un texte ou un bouton :</p>
+<ol>
+<li>Sélectionnez l’élément  </li>
+<li>Dans <strong>Contenu &gt; Lien</strong>  </li>
+<li>Modifiez l’URL  </li>
+</ol>
+<p><strong>Exemples :</strong>
+- Lien interne : <code>/contact</code><br />
+- Lien externe : <code>https://example.com</code></p>
+<hr />
+<h2 id="7-ajouter-ou-supprimer-un-element-avec-precaution">7. Ajouter ou supprimer un élément (avec précaution)<a class="headerlink" href="#7-ajouter-ou-supprimer-un-element-avec-precaution" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Bouton + et structure Bricks</strong><br />
+<em>Capture suggérée : Bouton « + » et panneau Structure affiché</em></p>
+<h3 id="ajouter-un-element">Ajouter un élément<a class="headerlink" href="#ajouter-un-element" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Cliquez sur le bouton <strong>+</strong>  </li>
+<li>Choisissez un élément (Texte, Image, Bouton…)  </li>
+<li>Glissez-le dans la structure  </li>
+</ol>
+<h3 id="supprimer-un-element">Supprimer un élément<a class="headerlink" href="#supprimer-un-element" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Sélectionnez l’élément  </li>
+<li>Icône <strong>corbeille</strong> ou touche <strong>Suppr</strong>  </li>
+</ol>
+<p>⚠️ Attention : certaines sections sont liées à la mise en page globale.</p>
+<hr />
+<h2 id="8-sauvegarder-les-modifications">8. Sauvegarder les modifications<a class="headerlink" href="#8-sauvegarder-les-modifications" title="Permanent link">&para;</a></h2>
+<p>📸 <strong>Image – Bouton Enregistrer</strong><br />
+<em>Capture suggérée : Bouton Enregistrer en haut à droite de Bricks</em></p>
+<ul>
+<li>Cliquez sur <strong>Enregistrer</strong> en haut à droite  </li>
+<li>Attendez la confirmation avant de quitter la page  </li>
+</ul>
+<p>💾 Les changements ne sont visibles pour les visiteurs qu’après sauvegarde.</p>
+<hr />
+<h2 id="9-bonnes-pratiques">9. Bonnes pratiques<a class="headerlink" href="#9-bonnes-pratiques" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Modifier uniquement le <strong>contenu</strong>, pas la structure  </li>
+<li>Ne pas toucher aux réglages avancés (CSS, conditions, requêtes)  </li>
+<li>En cas de doute : demander avant de modifier  </li>
+</ul>
+<hr />
+<h2 id="10-besoin-daide">10. Besoin d’aide ?<a class="headerlink" href="#10-besoin-daide" title="Permanent link">&para;</a></h2>
+<p>Si vous avez un doute ou un blocage, il vaut mieux demander plutôt que de risquer de casser la mise en page.</p>
+<p>👉 Bricks est très puissant, mais certaines parties sont volontairement verrouillées pour garantir la stabilité du site.</p>
+<hr />
+<p><em>Document fourni pour faciliter l’autonomie du client sur les modifications simples du site.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+        
+          
+          <a href="modification%20bricks/" class="md-footer__link md-footer__link--next" aria-label="Next: Guide de prise en main – Modifier son site avec Bricks Builder">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Guide de prise en main – Modifier son site avec Bricks Builder
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 The authors
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":".","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"assets/javascripts/workers/search.5df7522c.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.21aa498e.min.js"></script>
+      
+    
+  </body>
+</html>
