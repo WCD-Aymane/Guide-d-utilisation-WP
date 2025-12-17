@@ -1,4 +1,4 @@
-# Guide de prise en main – Modifier son site avec Bricks Builder
+# Modification avec Bricks
 
 Ce document a pour objectif de vous expliquer **les points essentiels à connaître pour modifier votre site WordPress construit avec Bricks**.  
 Il est pensé pour une utilisation simple, sans connaissances techniques avancées.
