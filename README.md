@@ -1,11 +1,9 @@
-# Documentation Project
+# Documentation Installation Zensical
 
 ## Prérequis
 
 - Python 3.x
 - pip ou uv
-
-## Installation
 
 ### Avec pip
 
@@ -28,6 +26,14 @@
    ```bash
    pip install zensical
    ```
+
+## Initialisation
+
+Si vous partez d'un dossier vide, initialisez la structure du projet :
+
+```bash
+zensical new .
+```
 
 ## Lancer le serveur
 
