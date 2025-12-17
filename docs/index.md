@@ -7,8 +7,7 @@ Il est pensé pour une utilisation simple, sans connaissances techniques avancé
 
 ## 1. Accéder à l’éditeur Bricks
 
-📸 **Image – Accès à l’éditeur Bricks depuis WordPress**  
-*Capture suggérée : Menu WordPress > Pages > Bouton « Modifier avec Bricks »*
+![Accès à l’éditeur Bricks](assets/images/Edit%20avec%20bricks.png)
 
 1. Connectez-vous à l’administration WordPress  
 2. Allez dans **Pages** (ou **Articles** selon le contenu)  
@@ -21,8 +20,7 @@ Vous arrivez alors dans l’éditeur visuel.
 
 ## 2. Comprendre l’interface Bricks
 
-📸 **Image – Vue globale de l’interface Bricks**  
-*Capture suggérée : Éditeur Bricks avec annotations (zone centrale, panneau gauche, structure)*
+![Interface Bricks](assets/images/Structure%20Bricks.png)
 
 L’éditeur Bricks est composé de :
 - **La zone centrale** : aperçu du site en temps réel  
@@ -35,8 +33,7 @@ L’éditeur Bricks est composé de :
 
 ## 3. Comment modifier un texte
 
-📸 **Image – Sélection d’un texte dans Bricks**  
-*Capture suggérée : Texte cliqué + panneau Contenu ouvert*
+![Modifier un texte](assets/images/Modification%20texte.png)
 
 1. Cliquez sur le texte à modifier dans la page  
 2. Dans le panneau de gauche, restez sur l’onglet **Contenu**  
@@ -49,8 +46,7 @@ L’éditeur Bricks est composé de :
 
 ## 4. Modifier un bouton
 
-📸 **Image – Paramètres d’un bouton**  
-*Capture suggérée : Onglet Contenu d’un bouton (texte + lien)*
+![Modifier un bouton](assets/images/Modification%20boutton.png)
 
 1. Cliquez sur le bouton  
 2. Onglet **Contenu** :
@@ -67,8 +63,7 @@ L’éditeur Bricks est composé de :
 
 ## 5. Modifier une image
 
-📸 **Image – Changement d’image**  
-*Capture suggérée : Sélecteur de médias WordPress ouvert depuis Bricks*
+![Modifier une image](assets/images/Modification%20image.png)
 
 1. Cliquez sur l’image  
 2. Dans **Contenu > Image**  
@@ -80,9 +75,6 @@ L’éditeur Bricks est composé de :
 ---
 
 ## 6. Modifier un lien
-
-📸 **Image – Champ lien dans Bricks**  
-*Capture suggérée : Champ URL dans les paramètres de l’élément*
 
 Pour modifier un lien sur un texte ou un bouton :
 
@@ -98,8 +90,7 @@ Pour modifier un lien sur un texte ou un bouton :
 
 ## 7. Ajouter ou supprimer un élément (avec précaution)
 
-📸 **Image – Bouton + et structure Bricks**  
-*Capture suggérée : Bouton « + » et panneau Structure affiché*
+![Ajouter un élément](assets/images/Ajouter%20un%20element.png)
 
 ### Ajouter un élément
 1. Cliquez sur le bouton **+**  
@@ -108,7 +99,9 @@ Pour modifier un lien sur un texte ou un bouton :
 
 ### Supprimer un élément
 1. Sélectionnez l’élément  
-2. Icône **corbeille** ou touche **Suppr**  
+2. Icône **corbeille** ou touche **Suppr**
+
+![Supprimer un élément](assets/images/Supprimer%20element.png)  
 
 ⚠️ Attention : certaines sections sont liées à la mise en page globale.
 
@@ -116,8 +109,7 @@ Pour modifier un lien sur un texte ou un bouton :
 
 ## 8. Sauvegarder les modifications
 
-📸 **Image – Bouton Enregistrer**  
-*Capture suggérée : Bouton Enregistrer en haut à droite de Bricks*
+![Sauvegarder](assets/images/Enregistrer.png)
 
 - Cliquez sur **Enregistrer** en haut à droite  
 - Attendez la confirmation avant de quitter la page  
